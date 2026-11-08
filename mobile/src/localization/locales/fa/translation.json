@@ -157,7 +157,71 @@
         "servingUnit": "واحد اندازه‌گیری",
         "equivalentUnitsFailed": "ذخیرهٔ برخی واحدهای معادل ناموفق بود",
         "addFood": "افزودن غذا",
-        "notes": "یادداشت‌ها"
+        "notes": "یادداشت‌ها",
+        "portions": {
+            "title": "مقدارهای مصرف نام‌گذاری‌شده",
+            "help": "مقدار پایهٔ این غذا را بر حسب گرم یا میلی‌لیتر نگه دارید و مقدارهایی مثل بسته یا بطری را به آن اضافه کنید.",
+            "remove": "حذف مقدار مصرف {{name}}",
+            "metricReference": "برای تعریف اندازهٔ مقدارهای مصرف، یک مقدار پایه بر حسب گرم یا میلی‌لیتر انتخاب کنید.",
+            "metricReferenceRequired": "یک مقدار پایه بر حسب گرم یا میلی‌لیتر انتخاب کنید که با مقدارهای جدیدتان مطابقت داشته باشد.",
+            "name": "نام مقدار مصرف",
+            "namePlaceholder": "مثلاً بسته",
+            "equals": "۱ مقدار مصرف =",
+            "amount": "اندازهٔ مقدار مصرف",
+            "confirm": "افزودن مقدار مصرف",
+            "add": "+ افزودن مقدار مصرف",
+            "saveFailed": "همهٔ مقدارهای مصرف ذخیره نشدند. دوباره تلاش کنید."
+        },
+        "scanNutritionLabel": "اسکن برچسب ارزش غذایی",
+        "equivalentSizes": "اندازه‌های معادل",
+        "selectUnit": "انتخاب واحد",
+        "unit": "واحد",
+        "removeEquivalent": "حذف مقدار معادل",
+        "addEquivalent": "+ افزودن مقدار معادل",
+        "foodNamePlaceholder": "مثلاً سینهٔ مرغ",
+        "brand": "برند",
+        "optional": "اختیاری",
+        "autoScaleNutrition": "تنظیم خودکار ارزش غذایی بر اساس مقدار",
+        "caloriesRequiredWithUnit": "کالری ({{unit}}) *",
+        "saltG": "نمک (گرم)",
+        "sodiumEntryUnit": "ثبت سدیم به‌صورت",
+        "sodiumShort": "سدیم",
+        "saltShort": "نمک",
+        "sodiumOption": "سدیم (میلی‌گرم)",
+        "saltOption": "نمک (گرم)",
+        "ai": {
+            "couldNotEstimate": "تخمین امکان‌پذیر نبود.",
+            "noTrustedDefault": "این غذا مقدار پایهٔ معتبری برای تغییر مقیاس ندارد.",
+            "servingSizeRequired": "ابتدا اندازهٔ هر وعده را مشخص کنید.",
+            "estimating": "در حال تخمین…",
+            "convertWithAI": "تبدیل با هوش مصنوعی",
+            "estimateFailed": "تخمین هوش مصنوعی ناموفق بود.",
+            "estimateQuality": {
+                "high": "تخمین خوب",
+                "medium": "تخمین متوسط",
+                "low": "تخمین تقریبی"
+            }
+        },
+        "manualUpdate": {
+            "title": "ویرایش دستی ارزش غذایی",
+            "message": "تبدیل بین این واحدها امکان‌پذیر نیست. پیش از ذخیره، مقادیر ارزش غذایی را دستی به‌روزرسانی کنید.",
+            "saveAnyway": "ذخیره با وجود این وضعیت",
+            "banner": "تبدیل بین این واحدها امکان‌پذیر نیست. مقادیر ارزش غذایی را دستی به‌روزرسانی کنید."
+        },
+        "loadingDetails": "جزئیات غذا هنوز در حال بارگذاری است. کمی بعد دوباره تلاش کنید.",
+        "saveNewUnitFailed": "ذخیرهٔ واحد جدید ناموفق بود.",
+        "saveNewVariantFailed": "ذخیرهٔ نوع جدید ناموفق بود.",
+        "saveNutritionFailed": "ذخیرهٔ ارزش غذایی برای استفاده‌های بعدی ناموفق بود.",
+        "savedNewVariant": "به‌عنوان نوع جدید ذخیره شد.",
+        "pastEntriesUpdated": "ثبت‌های قبلی به‌روزرسانی شدند.",
+        "pastEntriesFailed": "به‌روزرسانی ثبت‌های قبلی ناموفق بود.",
+        "foodSaved": "غذای شما ذخیره شد.",
+        "updateFailed": "به‌روزرسانی غذا ناموفق بود.",
+        "editTitle": "ویرایش غذا",
+        "saved": "ذخیره شد.",
+        "equivalentUnitsUpdated_one": "ذخیره شد · {{formattedCount}} واحد معادل به‌روزرسانی شد.",
+        "equivalentUnitsUpdated_other": "ذخیره شد · {{formattedCount}} واحد معادل به‌روزرسانی شد.",
+        "notesPlaceholder": "مثلاً برنج سفید، مرغ دوبرابر، بدون لوبیا (از Markdown پشتیبانی می‌کند)"
     },
     "dashboard": {
         "addWater": "افزودن آب",
@@ -334,7 +398,9 @@
             "noFilteredSaved": "{{message}} در {{filter}}",
             "couldNotLoad": "بارگذاری ممکن نشد",
             "noResults": "نتیجه‌ای یافت نشد",
-            "noOnlineResultsFrom": "از {{provider}} نتیجهٔ آنلاینی یافت نشد"
+            "noOnlineResultsFrom": "از {{provider}} نتیجهٔ آنلاینی یافت نشد",
+            "searchToLog": "برای ثبت، غذا یا وعدهٔ غذایی را جست‌وجو کنید.",
+            "noSavedFoods": "غذای ذخیره‌شده‌ای پیدا نشد."
         },
         "filter": {
             "all": "همه",
@@ -1866,20 +1932,210 @@
     "medications": {
         "retry": "تلاش دوباره",
         "form": {
-            "notes": "یادداشت‌ها"
+            "notes": "یادداشت‌ها",
+            "newTitle": "داروی جدید",
+            "editTitle": "ویرایش دارو",
+            "name": "نام *",
+            "namePlaceholder": "مثلاً نام دارو",
+            "type": "نوع",
+            "typeTitle": "نوع دارو",
+            "strength": "مقدار مادهٔ مؤثر",
+            "dose": "مقدار مصرف",
+            "unit": "واحد",
+            "strengthUnitPlaceholder": "میلی‌گرم",
+            "doseUnitPlaceholder": "قرص",
+            "details": "جزئیات",
+            "reason": "دلیل مصرف",
+            "reasonPlaceholder": "مثلاً فشار خون",
+            "prescriber": "پزشک تجویزکننده",
+            "prescriberPlaceholder": "مثلاً نام پزشک",
+            "pharmacy": "داروخانه",
+            "pharmacyPlaceholder": "مثلاً نام داروخانه",
+            "active": "فعال",
+            "required": "الزامی",
+            "nameRequired": "لطفاً نام دارو را وارد کنید.",
+            "invalidNumber": "عدد نامعتبر",
+            "invalidNumberMessage": "برای مقدار مادهٔ مؤثر و مقدار مصرف، عددهای معتبر وارد کنید.",
+            "updateFailed": "به‌روزرسانی دارو ناموفق بود: {{error}}",
+            "createFailed": "ایجاد دارو ناموفق بود: {{error}}"
         },
         "detail": {
             "loading": "در حال بارگذاری...",
-            "notes": "یادداشت‌ها"
+            "notes": "یادداشت‌ها",
+            "deleteTitle": "حذف دارو",
+            "deleteMessage": "از حذف «{{name}}» مطمئن هستید؟ همهٔ برنامه‌های مصرف و موارد ثبت‌شدهٔ آن نیز حذف می‌شوند.",
+            "removeDoseTitle": "حذف نوبت مصرف",
+            "removeDoseMessage": "نوبت مصرف ثبت‌شده در {{time}} حذف شود؟",
+            "deleteFailed": "حذف دارو ناموفق بود.",
+            "removeFailed": "حذف نوبت مصرف ناموفق بود.",
+            "edit": "ویرایش",
+            "inactive": "غیرفعال",
+            "noDoses": "برای این روز نوبت مصرفی برنامه‌ریزی نشده است.",
+            "asNeeded": "در صورت نیاز",
+            "removeDose": "حذف نوبت مصرف",
+            "schedules": "برنامه‌های مصرف",
+            "addSchedule": "افزودن برنامهٔ مصرف",
+            "add": "افزودن",
+            "noSchedule": "برنامه‌ای تنظیم نشده است. نوبت‌های مصرف در صورت نیاز ثبت می‌شوند.",
+            "details": "جزئیات",
+            "prescriber": "پزشک تجویزکننده",
+            "pharmacy": "داروخانه",
+            "rxNumber": "شمارهٔ نسخه",
+            "delete": "حذف دارو",
+            "logged": "ثبت‌شده",
+            "today": "امروز"
         },
         "schedule": {
-            "loading": "در حال بارگذاری..."
+            "loading": "در حال بارگذاری...",
+            "newTitle": "برنامهٔ مصرف جدید",
+            "editTitle": "ویرایش برنامهٔ مصرف",
+            "required": "الزامی",
+            "daysRequired": "دست‌کم یک روز هفته را انتخاب کنید.",
+            "invalidInterval": "فاصلهٔ زمانی نامعتبر",
+            "intervalMessage": "فاصلهٔ مصرف باید دست‌کم یک روز باشد.",
+            "everyNStart": "برنامه‌های مصرف هر چند روز یک‌بار به تاریخ شروع نیاز دارند.",
+            "invalidCycle": "چرخهٔ نامعتبر",
+            "cycleMessage": "روزهای مصرف باید دست‌کم ۱ و روزهای بدون مصرف دست‌کم صفر باشند.",
+            "cycleStart": "برنامهٔ مصرف چرخه‌ای به تاریخ شروع نیاز دارد.",
+            "invalidDay": "روز نامعتبر",
+            "dayMessage": "روز ماه باید بین ۱ و ۳۱ باشد.",
+            "invalidDose": "مقدار مصرف نامعتبر",
+            "doseMessage": "لطفاً مقدار مصرف معتبری وارد کنید.",
+            "invalidLimit": "محدودیت نامعتبر",
+            "limitMessage": "حداکثر دفعات مصرف در روز باید دست‌کم ۱ باشد.",
+            "invalidDates": "تاریخ‌های نامعتبر",
+            "datesMessage": "تاریخ پایان باید برابر یا بعد از تاریخ شروع باشد.",
+            "updateFailed": "به‌روزرسانی برنامهٔ مصرف ناموفق بود: {{error}}",
+            "createFailed": "ایجاد برنامهٔ مصرف ناموفق بود: {{error}}",
+            "deleteTitle": "حذف برنامهٔ مصرف",
+            "deleteMessage": "این برنامهٔ مصرف حذف شود؟ نوبت‌های مصرف ثبت‌شده حفظ می‌شوند.",
+            "deleteFailed": "حذف برنامهٔ مصرف ناموفق بود.",
+            "none": "هیچ‌کدام",
+            "time": "زمان",
+            "setTime": "تنظیم زمان",
+            "clearTime": "پاک‌کردن زمان",
+            "clear": "پاک‌کردن",
+            "scheduleType": "نوع برنامهٔ مصرف",
+            "frequency": "تناوب مصرف",
+            "daysOfWeek": "روزهای هفته",
+            "selectDays": "انتخاب روزهای هفته",
+            "everyNDays": "هر چند روز یک‌بار",
+            "dayOfMonth": "روز ماه",
+            "daysOn": "روزهای مصرف",
+            "daysOff": "روزهای بدون مصرف",
+            "reason": "دلیل مصرف",
+            "reasonPlaceholder": "مثلاً سردرد",
+            "maxPerDay": "حداکثر دفعات مصرف در روز",
+            "noLimit": "بدون محدودیت",
+            "noTimeReminder": "برنامهٔ مصرف بدون زمان مشخص، یادآوری دریافت نمی‌کند.",
+            "default": "پیش‌فرض",
+            "doseOverride": "مقدار مصرف جایگزین ({{unit}})",
+            "doseOverridePlain": "مقدار مصرف جایگزین",
+            "withMealTitle": "همراه با غذا",
+            "withMeal": "همراه با غذا",
+            "startDate": "تاریخ شروع",
+            "startDateRequired": "تاریخ شروع *",
+            "setStartDate": "تنظیم تاریخ شروع",
+            "clearStartDate": "پاک‌کردن تاریخ شروع",
+            "endDate": "تاریخ پایان",
+            "setEndDate": "تنظیم تاریخ پایان",
+            "clearEndDate": "پاک‌کردن تاریخ پایان",
+            "active": "فعال",
+            "delete": "حذف برنامهٔ مصرف",
+            "notFound": "برنامهٔ مصرف پیدا نشد.",
+            "daysTitle": "روزهای هفته",
+            "everyDay": "هر روز"
         },
         "glp1": {
             "log": {
                 "notes": "یادداشت‌ها"
             }
-        }
+        },
+        "title": "داروها",
+        "medication": "دارو",
+        "addMedication": "افزودن دارو",
+        "addMedicationTitle": "افزودن دارو",
+        "viewAll": "مشاهدهٔ همه",
+        "viewAllMedications": "مشاهدهٔ همهٔ داروها",
+        "loading": "در حال بارگذاری داروها...",
+        "loadFailed": "بارگذاری داروها ناموفق بود.",
+        "noMedications": "هنوز دارویی ثبت نشده است.",
+        "emptyDescription": "برای شروع پیگیری، نخستین داروی خود را اضافه کنید.",
+        "inactive": "غیرفعال",
+        "dose": {
+            "log": "ثبت مصرف",
+            "skip": "رد کردن",
+            "taken": "مصرف‌شده",
+            "skipped": "مصرف‌نشده",
+            "logTaken": "ثبت مصرف {{title}}",
+            "skipTitle": "ردکردن نوبت {{title}}",
+            "markTaken": "علامت‌زدن {{title}} به‌عنوان مصرف‌شده",
+            "unmark": "برداشتن علامت {{title}}",
+            "logTitle": "ثبت {{title}}",
+            "logged": "{{name}} ثبت شد.",
+            "takenToast": "مصرف {{name}} ثبت شد.",
+            "skippedToast": "نوبت {{name}} رد شد.",
+            "unmarked": "علامت {{name}} برداشته شد.",
+            "unskipped": "ردشدن {{name}} لغو شد.",
+            "removed": "نوبت مصرف {{name}} حذف شد.",
+            "tapUndo": "برای بازگرداندن بزنید.",
+            "failedRemoveDose": "حذف نوبت مصرف {{name}} ناموفق بود.",
+            "failedUnmark": "برداشتن علامت {{name}} ناموفق بود.",
+            "failedUpdate": "به‌روزرسانی {{name}} ناموفق بود.",
+            "failedLog": "ثبت {{name}} ناموفق بود."
+        },
+        "types": {
+            "daily": "روزانه",
+            "weekly": "روزهای مشخص",
+            "every_n_days": "هر چند روز یک‌بار",
+            "monthly": "ماهانه",
+            "cyclic": "چرخه‌ای (مصرف / توقف)",
+            "prn": "در صورت نیاز",
+            "pill": "قرص",
+            "tablet": "قرص",
+            "capsule": "کپسول",
+            "liquid": "مایع",
+            "injection": "تزریق",
+            "patch": "چسب دارویی",
+            "inhaler": "اسپری استنشاقی",
+            "drops": "قطره",
+            "nasal_spray": "اسپری بینی",
+            "cream": "کرم",
+            "suppository": "شیاف",
+            "other": "سایر",
+            "beforeMeal": "پیش از غذا",
+            "withMeal": "همراه با غذا",
+            "afterMeal": "پس از غذا",
+            "awayFromMeals": "با فاصله از وعده‌های غذایی",
+            "softgel": "کپسول نرم",
+            "gummy": "پاستیل جویدنی",
+            "powder": "پودر"
+        },
+        "weekdays": {
+            "title": "روزهای هفته",
+            "sun": "یکشنبه",
+            "mon": "دوشنبه",
+            "tue": "سه‌شنبه",
+            "wed": "چهارشنبه",
+            "thu": "پنجشنبه",
+            "fri": "جمعه",
+            "sat": "شنبه",
+            "itemA11y": "{{day}}، {{state}}",
+            "selected": "انتخاب‌شده",
+            "notSelected": "انتخاب‌نشده"
+        },
+        "notificationTitle": "یادآوری دارو",
+        "notificationScheduledDose": "یک نوبت مصرف برنامه‌ریزی‌شده دارید.",
+        "notificationScheduledDoseNamed": "نوبت مصرف برنامه‌ریزی‌شده: {{name}}{{dose}}",
+        "notificationScheduledDoses_one": "{{count}} نوبت مصرف برنامه‌ریزی‌شده دارید.",
+        "notificationScheduledDoses_other": "{{count}} نوبت مصرف برنامه‌ریزی‌شده دارید.",
+        "notificationScheduledDosesNamed": "نوبت‌های مصرف برنامه‌ریزی‌شده: {{names}}",
+        "notificationScheduledDosesOverflow_one": "نوبت‌های مصرف برنامه‌ریزی‌شده: {{names}} و {{count}} مورد دیگر",
+        "notificationScheduledDosesOverflow_other": "نوبت‌های مصرف برنامه‌ریزی‌شده: {{names}} و {{count}} مورد دیگر",
+        "inactiveA11y_one": "داروی غیرفعال ({{count}})",
+        "inactiveA11y_other": "داروهای غیرفعال ({{count}})",
+        "inactiveCount_one": "غیرفعال ({{count}})",
+        "inactiveCount_other": "غیرفعال ({{count}})"
     },
     "workout": {
         "useToday": "استفاده از امروز",
@@ -1996,6 +2252,40 @@
         "pickers": {
             "selectMeal": "انتخاب وعدهٔ غذایی",
             "selectServing": "انتخاب اندازهٔ وعده"
+        },
+        "title": "بازبینی",
+        "addingToDate": "در حال افزودن به {{date}}",
+        "labels": {
+            "meal": "وعدهٔ غذایی",
+            "chooseMeal": "انتخاب وعدهٔ غذایی"
+        },
+        "accessibility": {
+            "mealForAll": "وعدهٔ همهٔ موارد: {{meal}}",
+            "mealForRow": "وعدهٔ {{food}}: {{meal}}",
+            "increaseQuantity": "افزایش مقدار",
+            "decreaseQuantity": "کاهش مقدار",
+            "changeServing": "تغییر اندازهٔ مصرف {{name}}"
+        },
+        "actions": {
+            "addAll_one": "افزودن همه ({{count}})",
+            "addAll_other": "افزودن همه ({{count}})",
+            "remove": "حذف {{name}}",
+            "addAnyway": "بااین‌حال اضافه کن",
+            "addAnywayFor": "بااین‌حال {{name}} را اضافه کن"
+        },
+        "banners": {
+            "unknownOutcome": "بعضی موارد اضافه نشدند و ممکن است از قبل در دفتر روزانهٔ شما ثبت شده باشند."
+        },
+        "errors": {
+            "invalidQuantity": "مقداری بزرگ‌تر از صفر وارد کنید.",
+            "rowRejected": "افزودن این مورد امکان‌پذیر نبود. آن را بررسی و دوباره تلاش کنید."
+        },
+        "states": {
+            "empty": "غذایی انتخاب نشده است."
+        },
+        "toasts": {
+            "added_one": "{{count}} غذا اضافه شد.",
+            "added_other": "{{count}} غذا اضافه شدند."
         }
     },
     "workoutDetail": {
@@ -2020,7 +2310,46 @@
     },
     "foodSettings": {
         "errors": {
-            "updateFailed": "به‌روزرسانی تنظیمات ناموفق بود."
+            "updateFailed": "به‌روزرسانی تنظیمات ناموفق بود.",
+            "error": "خطا"
+        },
+        "title": "تنظیمات غذا",
+        "mealTypes": {
+            "title": "انواع وعده‌های غذایی",
+            "subtitle": "افزودن، ویرایش، تغییر ترتیب یا حذف دسته‌های سفارشی وعده‌های غذایی"
+        },
+        "netCarbs": {
+            "title": "نمایش کربوهیدرات خالص",
+            "description": "اگر فعال باشد، خلاصه‌های کربوهیدرات، مقدار خالص (کل کربوهیدرات منهای فیبر) را نشان می‌دهند و در جزئیات مواد مغذی، ردیف کربوهیدرات کل هم اضافه می‌شود."
+        },
+        "foodSource": {
+            "title": "منبع پیش‌فرض اطلاعات غذا",
+            "pickerTitle": "انتخاب منبع جست‌وجو",
+            "firstAvailable": "اولین منبع در دسترس",
+            "description": "برای جست‌وجوی غذا بر اساس نام استفاده می‌شود."
+        },
+        "openFacts": {
+            "title": "تنظیم مقادیر Open Food Facts",
+            "description": "Open Food Facts مقادیر را به ازای هر ۱۰۰ گرم ارائه می‌دهد. با این گزینه، مقادیر بر اساس اندازهٔ مصرف محصول تبدیل می‌شوند."
+        },
+        "barcode": {
+            "title": "اسکن بارکد",
+            "provider": "ارائه‌دهنده",
+            "pickerTitle": "انتخاب ارائه‌دهندهٔ بارکد",
+            "default": "پیش‌فرض",
+            "retryTitle": "تلاش دوباره با Open Food Facts",
+            "retryDescription": "اگر نتیجه‌ای پیدا نشد، به‌صورت خودکار Open Food Facts را امتحان کن."
+        },
+        "nutrients": {
+            "title": "مواد مغذی",
+            "custom": "مواد مغذی سفارشی",
+            "customSubtitle": "ساخت و ویرایش مواد مغذی دلخواه",
+            "display": "نمایش مواد مغذی",
+            "displaySubtitle": "انتخاب و مرتب‌کردن مواد مغذی که در هر بخش نمایش داده می‌شوند"
+        },
+        "allergens": {
+            "title": "مواد حساسیت‌زا",
+            "subtitle": "دریافت هشدار دربارهٔ غذاها یا موارد اسکن‌شده‌ای که حاوی مواد حساسیت‌زای مورد پیگیری شما هستند"
         }
     },
     "createFood": {
@@ -2032,7 +2361,22 @@
         "errors": {
             "invalidServingSize": "اندازهٔ هر وعده معتبر نیست",
             "equivalentsSaveFailed": "ذخیرهٔ برخی واحدهای معادل ناموفق بود",
-            "amountRequired": "مقدار باید بیشتر از صفر باشد."
+            "amountRequired": "مقدار باید بیشتر از صفر باشد.",
+            "missingName": "نام وارد نشده است.",
+            "nameRequired": "لطفاً نام غذا را وارد کنید.",
+            "servingSizeRequired": "اندازهٔ هر وعده باید بیشتر از صفر باشد.",
+            "invalidBarcode": "بارکد نامعتبر",
+            "barcodeRequired": "بارکد باید بین ۸ تا ۱۴ رقم داشته باشد.",
+            "foodSaveFailed": "ذخیرهٔ غذا ناموفق بود.",
+            "invalidAmount": "مقدار نامعتبر",
+            "noMealType": "نوع وعده انتخاب نشده است.",
+            "noMealTypesAvailable": "هیچ نوع وعده‌ای در دسترس نیست. لطفاً تنظیمات حساب خود را بررسی کنید."
+        },
+        "meal": "وعدهٔ غذایی",
+        "perServing": "در هر وعده",
+        "saveToDatabase": "ذخیره در پایگاه داده",
+        "success": {
+            "foodSaved": "غذا ذخیره شد."
         }
     },
     "foodDetail": {
