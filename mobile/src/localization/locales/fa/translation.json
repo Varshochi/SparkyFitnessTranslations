@@ -633,7 +633,8 @@
         "workout": "برنامهٔ تمرینی",
         "activity": "فعالیت",
         "recordActivity": "ثبت فعالیت",
-        "title": "اقدام‌های سریع"
+        "title": "اقدام‌های سریع",
+        "progressPhotos": "عکس‌های پیشرفت"
     },
     "common": {
         "save": "ذخیره",
@@ -2647,12 +2648,16 @@
         "exercisePrivate": "تمرین خصوصی شد",
         "sharePublic": "اشتراک‌گذاری عمومی",
         "failedSearchProvider": "جست‌وجو در {{provider}} ناموفق بود",
-        "searchProviderExercises": "جست‌وجوی تمرین در {{provider}}"
+        "searchProviderExercises": "جست‌وجوی تمرین در {{provider}}",
+        "missingName": "نام وارد نشده است.",
+        "startWorkout": "شروع جلسهٔ تمرین",
+        "presetMissingName": "نام وارد نشده است."
     },
     "cycleCard": {
         "mode": {
             "cyclePregnancy": "چرخهٔ قاعدگی و بارداری"
-        }
+        },
+        "grams": "{{value}} گرم"
     },
     "syncHealth": {
         "loading": "در حال بارگذاری داده‌های سلامت"
@@ -2787,7 +2792,8 @@
     "whatsNewPage": {
         "mockup": {
             "saveContinue": "ذخیره و ادامه"
-        }
+        },
+        "title": "تازه‌های برنامه"
     },
     "importHistory": {
         "healthConnectUnavailable": "Health Connect در دسترس نیست. مطمئن شوید نصب و فعال شده است.",
@@ -2799,11 +2805,20 @@
         }
     },
     "mealTypeSettings": {
-        "failedDelete": "حذف ناموفق بود"
+        "failedDelete": "حذف ناموفق بود",
+        "reorder": "تغییر ترتیب {{name}}",
+        "edit": "ویرایش {{name}}",
+        "notSet": "تنظیم نشده"
     },
     "workoutPlans": {
         "loadFailedSubtitle": "اتصال خود را بررسی کنید و دوباره تلاش کنید.",
-        "description": "توضیحات"
+        "description": "توضیحات",
+        "removeNamed": "حذف {{name}}",
+        "clearEndDate": "پاک‌کردن تاریخ پایان",
+        "startDate": "تاریخ شروع",
+        "endDate": "تاریخ پایان (اختیاری)",
+        "endBeforeStart": "تاریخ پایان نمی‌تواند پیش از تاریخ شروع باشد.",
+        "deleteNamed": "حذف {{name}}"
     },
     "mealPlans": {
         "loadFailedSubtitle": "اتصال خود را بررسی کنید و دوباره تلاش کنید.",
@@ -2812,14 +2827,19 @@
         "proteinLabel": "پروتئین",
         "carbsLabel": "کربوهیدرات",
         "fatLabel": "چربی",
-        "caloriesValueWithUnit": "{{value}} {{unit}}"
+        "caloriesValueWithUnit": "{{value}} {{unit}}",
+        "deleteNamed": "حذف {{name}}",
+        "startDate": "تاریخ شروع",
+        "clearEndDate": "پاک‌کردن تاریخ پایان",
+        "removeAssignmentFor": "حذف {{name}}"
     },
     "mealDetail": {
         "removeFavorite": "حذف از علاقه‌مندی‌ها",
         "addFavorite": "افزودن به علاقه‌مندی‌ها",
         "shareWithPublic": "اشتراک‌گذاری عمومی",
         "loadFailed": "بارگذاری وعدهٔ غذایی ناموفق بود",
-        "notes": "یادداشت‌ها"
+        "notes": "یادداشت‌ها",
+        "perServing": "در هر وعده"
     },
     "foodEntryMultiAdd": {
         "pickers": {
@@ -2974,7 +2994,8 @@
         "deleteSheetTitle": "حذف غذا"
     },
     "presetSearch": {
-        "noPresetsIn": "موردی از {{noun}} در {{filter}} یافت نشد"
+        "noPresetsIn": "موردی از {{noun}} در {{filter}} یافت نشد",
+        "title": "شروع جلسهٔ تمرین"
     },
     "ownership": {
         "filter": "فیلتر {{noun}}؛ محدود به {{filter}}",
@@ -2983,10 +3004,19 @@
         "emptySubtitle": "برای دیدن سایر {{noun}}، فیلتر را تغییر دهید."
     },
     "workoutPresetForm": {
-        "description": "توضیحات"
+        "description": "توضیحات",
+        "errors": {
+            "missingName": "نام وارد نشده است."
+        }
     },
     "chat": {
-        "retry": "تلاش دوباره"
+        "retry": "تلاش دوباره",
+        "attachments": {
+            "chooseFromLibrary": "انتخاب از گالری",
+            "cameraPermission": "مجوز دوربین لازم است.",
+            "cameraPermissionBody": "برای افزودن عکس، دسترسی به دوربین را فعال کنید.",
+            "addFailed": "افزودن عکس ناموفق بود."
+        }
     },
     "editLoggedMeal": {
         "fields": {
@@ -3236,10 +3266,12 @@
             "title": "خواب"
         },
         "hydration": {
-            "loadFailed": "بارگذاری داده‌های آب‌رسانی ناموفق بود."
+            "loadFailed": "بارگذاری داده‌های آب‌رسانی ناموفق بود.",
+            "title": "آب‌رسانی"
         },
         "heartRate": {
-            "title": "ضربان قلب در حالت استراحت"
+            "title": "ضربان قلب در حالت استراحت",
+            "loadFailed": "بارگذاری داده‌های ضربان قلب ناموفق بود."
         }
     },
     "presetLibrary": {
@@ -3254,12 +3286,20 @@
     },
     "symptoms": {
         "builtIn": {
-            "sleep": "خواب"
+            "sleep": "خواب",
+            "caffeine": "کافئین",
+            "hydration": "آب‌رسانی"
         },
         "history": "سابقه",
         "startTimeA11y": "زمان شروع: {{time}}",
         "views": {
             "back": "بازگشت"
+        },
+        "severity": {
+            "unset": "تنظیم نشده"
+        },
+        "kinds": {
+            "medication": "دارو"
         }
     },
     "actionTags": {
@@ -3278,29 +3318,40 @@
     },
     "watchSettings": {
         "pages": {
-            "steps": "قدم‌ها"
-        }
+            "steps": "قدم‌ها",
+            "water": "آب",
+            "medications": "داروها"
+        },
+        "reorder": "تغییر ترتیب {{name}}"
     },
     "progressPhotos": {
         "angle": {
             "back": "بازگشت"
         },
-        "historySection": "سابقه"
+        "historySection": "سابقه",
+        "title": "عکس‌های پیشرفت",
+        "chooseLibrary": "انتخاب از گالری"
     },
     "exerciseStatistics": {
         "cardio": {
             "caloriesWithUnit": "{{value}} {{unit}}",
-            "zones": "محدوده‌های ضربان قلب"
+            "zones": "محدوده‌های ضربان قلب",
+            "heartRate": "ضربان قلب"
         },
         "fitness": {
             "factor": {
                 "sleep": "خواب",
                 "restingHeartRate": "ضربان قلب در حالت استراحت"
             }
+        },
+        "consistency": {
+            "setsTitle": "ست‌های هر گروه عضلانی"
         }
     },
     "customCategories": {
-        "loadFailedSubtitle": "اتصال خود را بررسی کنید و دوباره تلاش کنید."
+        "loadFailedSubtitle": "اتصال خود را بررسی کنید و دوباره تلاش کنید.",
+        "editNamed": "ویرایش {{name}}",
+        "deleteNamed": "حذف {{name}}"
     },
     "mindfulness": {
         "detail": {
@@ -3395,7 +3446,9 @@
         "metrics": {
             "restingHeartRate": "ضربان قلب در حالت استراحت"
         },
-        "changeHint": "{{change}} نسبت به {{days}} روز قبل"
+        "changeHint": "{{change}} نسبت به {{days}} روز قبل",
+        "tooltip": "{{value}} · {{date}}",
+        "weekendVsWeekday": "روزهای کاری در مقایسه با آخر هفته"
     },
     "reportsSettings": {
         "sections": {
@@ -3516,6 +3569,11 @@
         },
         "realign": {
             "back": "بازگشت"
+        },
+        "custom": {
+            "problem": {
+                "name": "برای برنامه نامی وارد کنید."
+            }
         }
     },
     "heartRateZones": {
@@ -3530,7 +3588,8 @@
             "protein": "پروتئین",
             "carbs": "کربوهیدرات",
             "fat": "چربی",
-            "steps": "قدم‌ها"
+            "steps": "قدم‌ها",
+            "caffeine": "کافئین"
         },
         "verdict": {
             "days_one": "{{count}} روز",
@@ -3538,6 +3597,12 @@
         },
         "screen": {
             "retry": "تلاش دوباره"
+        },
+        "since": {
+            "startTitle": "تاریخ شروع"
+        },
+        "sentence": {
+            "weekByWeek": "هفته به هفته"
         }
     },
     "plates": {
@@ -3864,5 +3929,53 @@
     },
     "foodSave": {
         "failed": "ذخیرهٔ غذا ناموفق بود."
+    },
+    "activityShare": {
+        "takePhoto": "گرفتن عکس"
+    },
+    "scheduleSummary": {
+        "everyNDays": "هر {{count}} روز",
+        "monthlyOnDay": "ماهانه، روز {{day}}",
+        "at": "{{frequency}}، ساعت {{time}}",
+        "cycleOn_one": "{{count}} روز مصرف",
+        "cycleOn_other": "{{count}} روز مصرف",
+        "cycleOff_one": "{{count}} روز توقف مصرف",
+        "cycleOff_other": "{{count}} روز توقف مصرف"
+    },
+    "devTools": {
+        "watch": {
+            "title": "اپل واچ",
+            "wearOsTitle": "Wear OS"
+        }
+    },
+    "addMenuSettings": {
+        "reorder": "تغییر ترتیب {{name}}"
+    },
+    "editBarcode": {
+        "errors": {
+            "invalidFormat": "بارکد باید بین ۸ تا ۱۴ رقم داشته باشد."
+        }
+    },
+    "bumpPhotos": {
+        "chooseLibrary": "انتخاب از گالری",
+        "noPhoto": "انتخاب‌گر عکسی برنگرداند."
+    },
+    "mealTypeForm": {
+        "notSet": "تنظیم نشده"
+    },
+    "pregnancySafety": {
+        "medications": "داروها"
+    },
+    "ingredientRow": {
+        "edit": "ویرایش {{name}}"
+    },
+    "barcode": {
+        "invalid": "بارکد باید بین ۸ تا ۱۴ رقم داشته باشد."
+    },
+    "healthTrendsSettings": {
+        "reorder": "تغییر ترتیب {{name}}"
+    },
+    "routes": {
+        "goBack": "بازگشت"
     }
 }
