@@ -4,12 +4,21 @@
         "newFood": "غذای جدید",
         "editFood": "ویرایش غذا",
         "scanFood": "اسکن غذا",
-        "newActivity": "فعالیت جدید"
+        "newActivity": "فعالیت جدید",
+        "cyclePregnancy": "چرخهٔ قاعدگی و بارداری",
+        "sleep": "خواب",
+        "healthTrendsSettings": "روندهای سلامت",
+        "addMenuSettings": "اقدام‌های سریع",
+        "nutritionReport": "تغذیه",
+        "heartRateZonesSettings": "محدوده‌های ضربان قلب"
     },
     "foodForm": {
         "foodName": "نام غذا",
         "servingSize": "اندازهٔ هر وعده",
-        "servingUnit": "واحد اندازه‌گیری"
+        "servingUnit": "واحد اندازه‌گیری",
+        "equivalentUnitsFailed": "ذخیرهٔ برخی واحدهای معادل ناموفق بود",
+        "addFood": "افزودن غذا",
+        "notes": "یادداشت‌ها"
     },
     "dashboard": {
         "addWater": "افزودن آب",
@@ -1622,5 +1631,445 @@
     "checkIn": {
         "saveFailed": "ذخیره ناموفق بود.",
         "saveMessage": "اندازه‌گیری‌ها ذخیره نشدند. لطفاً دوباره تلاش کنید."
+    },
+    "familyDiary": {
+        "back": "بازگشت",
+        "selectAll": "انتخاب همه",
+        "continue": "ادامه"
+    },
+    "activeWorkout": {
+        "header": {
+            "addExercise": "افزودن تمرین",
+            "back": "بازگشت"
+        },
+        "exerciseCard": {
+            "viewDetailsFallback": "مشاهدهٔ جزئیات تمرین"
+        },
+        "rail": {
+            "addExercise": "افزودن تمرین"
+        },
+        "setRow": {
+            "weight": "وزن"
+        }
+    },
+    "calorieSettings": {
+        "updateFailed": "به‌روزرسانی تنظیمات ناموفق بود."
+    },
+    "medications": {
+        "retry": "تلاش دوباره",
+        "form": {
+            "notes": "یادداشت‌ها"
+        },
+        "detail": {
+            "loading": "در حال بارگذاری...",
+            "notes": "یادداشت‌ها"
+        },
+        "schedule": {
+            "loading": "در حال بارگذاری..."
+        },
+        "glp1": {
+            "log": {
+                "notes": "یادداشت‌ها"
+            }
+        }
+    },
+    "workout": {
+        "useToday": "استفاده از امروز",
+        "useYesterday": "استفاده از دیروز",
+        "notes": "یادداشت‌ها",
+        "retry": "تلاش دوباره",
+        "avgHeartRate": "میانگین ضربان قلب (bpm)",
+        "failedSaveActivity": "ذخیرهٔ فعالیت انجام نشد",
+        "description": "توضیحات",
+        "history": "سابقه",
+        "summary": "خلاصه",
+        "addExerciseLabel": "افزودن تمرین",
+        "failedAddExercise": "افزودن تمرین انجام نشد",
+        "makePublicMessage": "این تمرین برای همهٔ کاربران این سرور قابل مشاهده خواهد شد.",
+        "searchExercises": "جست‌وجوی تمرین‌ها...",
+        "search": "جست‌وجو",
+        "searchExerciseToStart": "برای شروع، یک تمرین جست‌وجو کنید",
+        "connectToSearch": "برای جست‌وجوی آنلاین تمرین‌ها به سرور متصل شوید",
+        "connectToView": "برای مشاهدهٔ تمرین‌ها به سرور متصل شوید",
+        "noProviders": "هیچ ارائه‌دهندهٔ آنلاین تمرینی تنظیم نشده است",
+        "failedLoadExercises": "بارگذاری تمرین‌ها ناموفق بود",
+        "failedLoadProviders": "بارگذاری ارائه‌دهندگان ناموفق بود",
+        "failedSearchExercises": "جست‌وجوی تمرین‌ها ناموفق بود",
+        "failedAdd": "افزودن تمرین انجام نشد",
+        "viewExerciseDetails": "مشاهدهٔ جزئیات تمرین",
+        "presetDescription": "توضیحات",
+        "failedToSaveActivity": "ذخیرهٔ فعالیت انجام نشد",
+        "pleaseTryAgain": "لطفاً دوباره تلاش کنید.",
+        "steps": "قدم‌ها",
+        "weight": "وزن",
+        "exerciseShared": "تمرین به‌صورت عمومی به اشتراک گذاشته شد",
+        "exercisePrivate": "تمرین خصوصی شد",
+        "sharePublic": "اشتراک‌گذاری عمومی",
+        "failedSearchProvider": "جست‌وجو در {{provider}} ناموفق بود",
+        "searchProviderExercises": "جست‌وجوی تمرین در {{provider}}"
+    },
+    "cycleCard": {
+        "mode": {
+            "cyclePregnancy": "چرخهٔ قاعدگی و بارداری"
+        }
+    },
+    "syncHealth": {
+        "loading": "در حال بارگذاری داده‌های سلامت"
+    },
+    "fastingCard": {
+        "history": "سابقه"
+    },
+    "cycleSettings": {
+        "title": {
+            "cyclePregnancy": "چرخهٔ قاعدگی و بارداری"
+        }
+    },
+    "foodScan": {
+        "errors": {
+            "timeout": "مهلت درخواست تمام شد. اتصال سرور را بررسی کنید."
+        }
+    },
+    "cycleToday": {
+        "basalTemperature": "دمای پایهٔ بدن",
+        "notes": "یادداشت‌ها"
+    },
+    "cycleInsights": {
+        "days_one": "{{count}} روز",
+        "days_other": "{{count}} روز"
+    },
+    "cycleCorrelations": {
+        "metrics": {
+            "weight": "وزن",
+            "sleep": "خواب"
+        }
+    },
+    "foodFormPersistence": {
+        "invalidServingSize": "اندازهٔ هر وعده معتبر نیست",
+        "equivalentsFailed": "ذخیرهٔ برخی واحدهای معادل ناموفق بود"
+    },
+    "whatsNewPage": {
+        "mockup": {
+            "saveContinue": "ذخیره و ادامه"
+        }
+    },
+    "importHistory": {
+        "healthConnectUnavailable": "Health Connect در دسترس نیست. مطمئن شوید نصب و فعال شده است.",
+        "healthKitUnavailable": "داده‌های سلامت (HealthKit) در دسترس نیستند. دسترسی سلامت را در برنامهٔ Health دستگاه iOS فعال کنید."
+    },
+    "fastingDetail": {
+        "tabs": {
+            "history": "سابقه"
+        }
+    },
+    "mealTypeSettings": {
+        "failedDelete": "حذف ناموفق بود"
+    },
+    "workoutPlans": {
+        "loadFailedSubtitle": "اتصال خود را بررسی کنید و دوباره تلاش کنید.",
+        "description": "توضیحات"
+    },
+    "mealPlans": {
+        "loadFailedSubtitle": "اتصال خود را بررسی کنید و دوباره تلاش کنید.",
+        "planningOptionsFailedSubtitle": "اتصال خود را بررسی کنید و دوباره تلاش کنید.",
+        "description": "توضیحات",
+        "proteinLabel": "پروتئین",
+        "carbsLabel": "کربوهیدرات",
+        "fatLabel": "چربی",
+        "caloriesValueWithUnit": "{{value}} {{unit}}"
+    },
+    "mealDetail": {
+        "removeFavorite": "حذف از علاقه‌مندی‌ها",
+        "addFavorite": "افزودن به علاقه‌مندی‌ها",
+        "shareWithPublic": "اشتراک‌گذاری عمومی",
+        "loadFailed": "بارگذاری وعدهٔ غذایی ناموفق بود",
+        "notes": "یادداشت‌ها"
+    },
+    "foodEntryMultiAdd": {
+        "pickers": {
+            "selectMeal": "انتخاب وعدهٔ غذایی",
+            "selectServing": "انتخاب اندازهٔ وعده"
+        }
+    },
+    "workoutDetail": {
+        "labels": {
+            "notes": "یادداشت‌ها"
+        }
+    },
+    "calorieLink": {
+        "caloriesWithUnit": "{{value}} {{unit}}"
+    },
+    "activityDetail": {
+        "errors": {
+            "saveFailed": "ذخیرهٔ فعالیت انجام نشد"
+        },
+        "stats": {
+            "steps": "قدم‌ها"
+        },
+        "labels": {
+            "weight": "وزن",
+            "notes": "یادداشت‌ها"
+        }
+    },
+    "foodSettings": {
+        "errors": {
+            "updateFailed": "به‌روزرسانی تنظیمات ناموفق بود."
+        }
+    },
+    "createFood": {
+        "title": "غذای جدید",
+        "selectMeal": "انتخاب وعدهٔ غذایی",
+        "actions": {
+            "addFood": "افزودن غذا"
+        },
+        "errors": {
+            "invalidServingSize": "اندازهٔ هر وعده معتبر نیست",
+            "equivalentsSaveFailed": "ذخیرهٔ برخی واحدهای معادل ناموفق بود",
+            "amountRequired": "مقدار باید بیشتر از صفر باشد."
+        }
+    },
+    "foodDetail": {
+        "sharePublic": "اشتراک‌گذاری عمومی",
+        "selectServing": "انتخاب اندازهٔ وعده",
+        "notes": "یادداشت‌ها"
+    },
+    "presetSearch": {
+        "noPresetsIn": "موردی از {{noun}} در {{filter}} یافت نشد"
+    },
+    "ownership": {
+        "filter": "فیلتر {{noun}}؛ محدود به {{filter}}",
+        "showAll": "نمایش همه",
+        "emptyTitle": "موردی از {{noun}} در {{filter}} یافت نشد",
+        "emptySubtitle": "برای دیدن سایر {{noun}}، فیلتر را تغییر دهید."
+    },
+    "workoutPresetForm": {
+        "description": "توضیحات"
+    },
+    "chat": {
+        "retry": "تلاش دوباره"
+    },
+    "editLoggedMeal": {
+        "fields": {
+            "selectMeal": "انتخاب وعدهٔ غذایی"
+        },
+        "actions": {
+            "addFood": "افزودن غذا"
+        },
+        "accessibility": {
+            "time": "انتخاب زمان: {{time}}",
+            "clearTime": "پاک کردن زمان ثبت غذا"
+        }
+    },
+    "exerciseMutations": {
+        "errors": {
+            "deleteFailed": "حذف ناموفق بود",
+            "saveActivity": "ذخیرهٔ فعالیت انجام نشد"
+        },
+        "hidden": {
+            "usedByOthers": "چون افراد دیگری از این غذا استفاده می‌کنند، به‌جای حذف، پنهان شد. سابقهٔ آن‌ها تغییری نکرده است."
+        },
+        "options": {
+            "hide": "پنهان کردن از جست‌وجو",
+            "deleteWithHistory": "حذف همراه با سابقه"
+        }
+    },
+    "foodPhotoEstimate": {
+        "errors": {
+            "invalidServingSize": "اندازهٔ هر وعده معتبر نیست"
+        },
+        "ingredients": {
+            "addFood": "افزودن غذا"
+        }
+    },
+    "mealTypeDetail": {
+        "states": {
+            "loadFailed": "بارگذاری وعدهٔ غذایی ناموفق بود"
+        },
+        "accessibility": {
+            "addFood": "افزودن غذا"
+        }
+    },
+    "workoutPresetDetail": {
+        "accessibility": {
+            "sharePublic": "اشتراک‌گذاری عمومی"
+        }
+    },
+    "babyGrowth": {
+        "weight": "وزن"
+    },
+    "foodPhotoLogEntry": {
+        "back": "بازگشت",
+        "selectMeal": "انتخاب وعدهٔ غذایی"
+    },
+    "workoutAdd": {
+        "tryAgain": "لطفاً دوباره تلاش کنید.",
+        "useYesterday": "استفاده از دیروز",
+        "useToday": "استفاده از امروز"
+    },
+    "foodUnit": {
+        "groups": {
+            "weight": "وزن"
+        }
+    },
+    "charts": {
+        "weight": {
+            "title": "وزن"
+        },
+        "steps": {
+            "title": "قدم‌ها"
+        },
+        "sleep": {
+            "title": "خواب"
+        },
+        "hydration": {
+            "loadFailed": "بارگذاری داده‌های آب‌رسانی ناموفق بود."
+        },
+        "heartRate": {
+            "title": "ضربان قلب در حالت استراحت"
+        }
+    },
+    "presetLibrary": {
+        "retry": "تلاش دوباره"
+    },
+    "workoutForm": {
+        "notes": "یادداشت‌ها"
+    },
+    "fertility": {
+        "days_one": "{{count}} روز",
+        "days_other": "{{count}} روز"
+    },
+    "symptoms": {
+        "builtIn": {
+            "sleep": "خواب"
+        },
+        "history": "سابقه",
+        "startTimeA11y": "زمان شروع: {{time}}",
+        "views": {
+            "back": "بازگشت"
+        }
+    },
+    "actionTags": {
+        "list": {
+            "loadFailedSubtitle": "اتصال خود را بررسی کنید و دوباره تلاش کنید."
+        }
+    },
+    "cycleHub": {
+        "history": "سابقه"
+    },
+    "healthDataDisplay": {
+        "energy": "{{value}} {{unit}}"
+    },
+    "notes": {
+        "label": "یادداشت‌ها"
+    },
+    "watchSettings": {
+        "pages": {
+            "steps": "قدم‌ها"
+        }
+    },
+    "progressPhotos": {
+        "angle": {
+            "back": "بازگشت"
+        },
+        "historySection": "سابقه"
+    },
+    "exerciseStatistics": {
+        "cardio": {
+            "caloriesWithUnit": "{{value}} {{unit}}",
+            "zones": "محدوده‌های ضربان قلب"
+        },
+        "fitness": {
+            "factor": {
+                "sleep": "خواب",
+                "restingHeartRate": "ضربان قلب در حالت استراحت"
+            }
+        }
+    },
+    "customCategories": {
+        "loadFailedSubtitle": "اتصال خود را بررسی کنید و دوباره تلاش کنید."
+    },
+    "mindfulness": {
+        "detail": {
+            "historyTab": "سابقه"
+        },
+        "modal": {
+            "durationMinutesAccessibility": "مدت‌زمان به دقیقه",
+            "notesAccessibility": "یادداشت‌ها"
+        },
+        "fields": {
+            "notes": "یادداشت‌ها",
+            "heartRateAvg": "میانگین ضربان قلب (bpm)"
+        }
+    },
+    "recordActivity": {
+        "permission": {
+            "openSettings": "بازکردن تنظیمات"
+        }
+    },
+    "reports": {
+        "nutrition": "تغذیه",
+        "heartRateZones": "محدوده‌های ضربان قلب"
+    },
+    "moodReport": {
+        "daysLogged": "روزهای ثبت‌شده",
+        "summary": "خلاصه",
+        "changeHint": "{{change}} نسبت به {{days}} روز قبل",
+        "byWeekday": "میانگین به تفکیک روز هفته",
+        "daysOfWindow": "{{logged}} از {{total}}"
+    },
+    "sleepAnalytics": {
+        "metrics": {
+            "restingHeartRate": "ضربان قلب در حالت استراحت"
+        },
+        "changeHint": "{{change}} نسبت به {{days}} روز قبل"
+    },
+    "reportsSettings": {
+        "sections": {
+            "nutrientTrends": "روند به تفکیک مادهٔ مغذی",
+            "moodSummary": "خلاصه",
+            "moodByWeekday": "میانگین به تفکیک روز هفته",
+            "nutritionWeekdays": "کالری به تفکیک روز هفته",
+            "hydrationWeekdays": "میانگین به تفکیک روز هفته",
+            "micronutrients": "ویتامین‌ها و مواد معدنی"
+        }
+    },
+    "measurementsReport": {
+        "weight": "وزن"
+    },
+    "substancesReport": {
+        "daysCount_one": "{{count}} روز",
+        "daysCount_other": "{{count}} روز"
+    },
+    "runPrograms": {
+        "detail": {
+            "steps": "قدم‌ها"
+        },
+        "realign": {
+            "back": "بازگشت"
+        }
+    },
+    "heartRateZones": {
+        "title": "محدوده‌های ضربان قلب"
+    },
+    "compareReport": {
+        "groups": {
+            "sleep": "خواب"
+        },
+        "metrics": {
+            "restingHeartRate": "ضربان قلب در حالت استراحت",
+            "protein": "پروتئین",
+            "carbs": "کربوهیدرات",
+            "fat": "چربی",
+            "steps": "قدم‌ها"
+        },
+        "verdict": {
+            "days_one": "{{count}} روز",
+            "days_other": "{{count}} روز"
+        },
+        "screen": {
+            "retry": "تلاش دوباره"
+        }
+    },
+    "plates": {
+        "plateWeight": "وزن"
     }
 }
